@@ -15,6 +15,7 @@ git clone https://github.com/caseyjdavis/ansible-wordpress.git
 
 Run the playbook
 ```
+cd ansible-wordpress/
 sudo ansible-playbook dockerwordpressplaybook.yml
 ```
 
@@ -24,6 +25,11 @@ Installs
 - PHP
 - Wordpress latest
 
+### Command prompt output
 ![Log output of ansible](log-output.png)
 
+### Welcome Screen for Wordpress
 ![Wordpress welcome install page](wordpress-welcome.png)
+
+### Docker process monitor
+![Screenshot of process monitoring](docker-process.png)
